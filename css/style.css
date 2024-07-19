@@ -1,0 +1,99 @@
+*{
+margin:0px;
+padding: 0px;
+box-sizing: border-box;
+}
+html,body{
+    font-family: roboto,sans-serif,arial;
+    font-size: 16px;
+    color:#242424;
+}
+.container{
+    width: 1300px;
+    margin: 0px auto;
+}
+.header{
+    background-color: #0055a4;
+    padding: 6px; 
+}
+.header b{
+    background:#fff;
+    color: red;
+    padding: 10px;
+    font-size: 20px;
+}
+.header marquee{
+    font-size: 20px;
+    color: white;
+    width: 80%;
+}
+.logo{
+    height: 80px;
+}
+nav{
+    float:right;
+    padding:25px 0px;
+}
+nav a{
+    color: black;
+    text-decoration:none;
+    font-size: 18px;
+    padding: 2px 10px;
+    font-weight: 500;
+}
+.slider{
+    width: 100%;
+}
+.bg-color{
+    background: #f0f3fa;
+}
+.main-selector{
+    width:100%;
+    float:left;
+    padding:100px 0px 100px 0px;
+}
+.event{
+    width:32%;
+    margin-right: 1%;
+    float: left;
+    background: white;
+}
+.event i{
+    color: red;
+    font-size: 14px;
+}
+.event div{
+    padding:10px; 
+}
+.event .heading{
+    padding: 10px;
+    color:white;
+    background: #0055a4;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.event ul li{
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+    list-style: none;
+
+}
+.compus-news span {
+    width: 80px;
+    float: left;
+}
+.compus-news h2{
+    font-weight: 600;
+    font-size: 15px;
+}
+.compus-news h6{
+    font-weight: 500;
+    font-size: 13px;
+    color: red;
+}
+.compus-news p{
+    font-size: 14px;
+}
